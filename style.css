@@ -1,0 +1,13 @@
+div.icon {
+    position: absolute;
+    top: 5%;
+    right: 35%;
+}
+
+div.icon:hover + .tooltip-content {
+    position: absolute;
+    width: 20%;
+    top: 8%;
+    background-color: black;
+    color: white;
+}
